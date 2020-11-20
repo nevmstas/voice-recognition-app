@@ -4,8 +4,19 @@
   "description": "backend for voice recognition app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./",
+    "start": "nodemon server.ts"
   },
   "author": "Stas Nevmyvaka <nevmyvakastas@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "0.0.36",
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.9",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
 }
