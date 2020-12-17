@@ -13,6 +13,7 @@
   "dependencies": {
     "@tensorflow/tfjs": "^2.7.0",
     "@tensorflow/tfjs-converter": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.8.0",
     "config": "^3.3.2",
     "express": "^4.17.1"
   }
